@@ -1,0 +1,500 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Body */
+
+body {
+    background-color: #E6E6E9;
+    margin-left: 1em;
+    margin-top: -1em;
+    margin-right: -0.5em;
+    margin-bottom: 1em;
+    font-family: Frobisher;
+}
+
+
+/* Lettertype */
+
+@font-face {
+    font-family: Frobisher;
+    src: url('font/Frobisher.ttf') format("truetype");
+    font-weight: 900;
+}
+
+
+/* H1 */
+
+h1 {
+    color: #000166;
+    font-size: 1.875em;
+    min-width: 12em;
+    max-width: 40em;
+}
+
+
+/* H2 */
+
+h2 {
+    color: #000166;
+    font-size: 1.1875em;
+    min-width: 20em;
+    max-width: 40em;
+}
+
+
+/* H3 */
+
+h3 {
+    color: #000166;
+    font-size: 1.0625em;
+    min-width: 20em;
+    max-width: 40em;
+}
+
+
+/* H3: Hover */
+
+h3:hover {
+    color: #127bd0;
+}
+
+
+/* Paragraph */
+
+p {
+    color: #127bd0;
+    font-size: 1em;
+    max-width: 10.5em;
+}
+
+
+/* Header */
+
+header {
+    height: 4.9em;
+    background-color: #FFFFFF;
+    margin-left: -1em;
+    margin-right: -1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    border-bottom: solid;
+    border-color: #939598;
+    border-width: 0.09375em;
+}
+
+
+/* Formulier */
+
+form {
+    background-color: #fec836;
+    margin-top: -2.3em;
+    padding-top: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    display: block;
+}
+
+
+/* Fieldset */
+
+fieldset {
+    border: none;
+    margin-right: -0.5em;
+    margin-left: -0.5em;
+    max-width: 150%;
+}
+
+
+/* Email: valid */
+
+input[type=email]:valid {
+    border: 2px solid #009900;
+}
+
+
+/* Password: valid */
+
+input[type=password]:valid {
+    border: 2px solid #009900;
+}
+
+
+/* Email: invalid */
+
+input[type=email]:invalid {
+    border: 2px solid #e50000;
+}
+
+
+/* Email: invalid */
+
+input[type=password]:invalid {
+    border: 2px solid #e50000;
+}
+
+
+/* Section */
+
+section {
+    background-color: #FFFFFF;
+    max-height: 26em;
+    margin-top: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+}
+
+
+/* Carousel (sections) */
+
+.carousel {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+/* Article */
+
+article {
+    box-sizing: border-box;
+    max-width: 10em;
+    margin-right: 0.35em;
+}
+
+
+/* Button */
+
+button {
+    color: #FFFFFF;
+    font-size: 1em;
+    width: 100%;
+    height: 2.5em;
+    background-color: #127bd0;
+    font-family: Frobisher;
+} 
+
+/* Search */
+
+input[type=search] {
+    width: 100%;
+    border-style: none;
+    line-height: 3.5em;
+}
+
+
+/* Email */
+
+input[type=email] {
+    width: 100%;
+    border-style: none;
+    line-height: 3.5em;
+}
+
+
+/* Password */
+
+input[type=password] {
+    width: 100%;
+    border-style: none;
+    line-height: 3.5em;
+}
+
+
+/* Input: focus */
+
+input[type]:focus {
+    border: 2px;
+    border-style: dotted;
+    border-color: #000000;
+}
+
+
+/* Header images */
+
+header img {
+    float: left;
+    margin-top: 0.3em;
+    margin-left: -1.5em;
+    width: 3.4375em;
+    height: 1.25em;
+}
+
+
+/* Profile image */
+
+img[src="images/profile.png"] {
+    float: right;
+    margin-top: -1.8em;
+    margin-right: 7.4em;
+    height: 1.125em;
+    width: 1.4375em;
+}
+
+
+/* Favourites image */
+
+img[src="images/heartfilled.png"] {
+    float: right;
+    margin-right: 2.5em;
+    margin-top: 0.3em;
+    height: 1.125em;
+    width: 1.4375em;
+}
+
+
+/* Downloads image */
+
+img[src="images/download.png"] {
+    float: right;
+    margin-top: 0.3em;
+    margin-right: 1em;
+    height: 1.125em;
+    width: 1.4375em;
+}
+
+
+/* Favourite button */
+
+img[src="images/heart.png"] {
+    float: right;
+    margin-top: -3.2em;
+    margin-right: 1em;
+    height: 30px;
+    width: 35px;
+}
+
+/* Download button */
+
+img[src="images/nowdownload.png"] {
+    float: right;
+    margin-top: -3.2em;
+    margin-right: 5em;
+    height: 30px;
+    width: 35px;
+}
+
+
+/* Reading banner */
+
+img[src="images/lezen.jpg"] {
+    width: 100%;
+}
+
+
+/* Placeholder */
+
+input[placeholder] {
+    padding-left: 1em;
+}
+
+
+/* Unordered list */
+
+ul {
+    list-style: none;
+}
+
+
+/* Link */
+
+a {
+    text-decoration: none;
+}
+
+
+/* Cover */
+
+.cover {
+    width: 9em;
+    height: 12.5em;
+}
+
+
+/* Media Queries: Mobile */
+
+@media(min-width: 25.875em) {
+    body {
+        width: 95%;
+    }
+    section {
+        width: 100%;
+        float: left;
+    }
+    form {
+        margin-top: -2em;
+    }
+    main section:nth-child(3) {
+        width: 100%;
+        float: left;
+        margin-bottom: 1em;
+    }
+    .forminloggen {
+        margin-top: 3em;
+    }
+    .image1 {
+        margin-top: 0.05em;
+        margin-left: 0.1em;
+        width: 100%;
+    }
+    .image2 {
+        display: none;
+    }
+    .image3 {
+        display: none;
+    }
+}
+
+
+/* Media Queries: Tablet */
+
+@media(min-width: 48em) {
+    body {
+        margin-right: -1.9em;
+    }
+    section {
+        width: 48.8%;
+        float: left;
+    }
+    form {
+        margin-top: -9em;
+    }
+    main section:nth-child(3) {
+        width: 100%;
+        float: left;
+    }
+    section:nth-child(2) {
+        margin-left: 1em;
+    }
+    .forminloggen {
+        margin-top: 10.2em;
+    }
+    .image1 {
+        display: none;
+    }
+    .image2 {
+        display: block;
+        margin-top: 1em;
+        margin-left: 0.1em;
+        width: 100%;
+    }
+}
+
+
+/* Media Queries: Desktop */
+
+@media(min-width: 75em) {
+    body {
+        width: 98%;
+    }
+    section {
+        width: 68.8%;
+        height: 40em;
+        float: left;
+    }
+    main section:nth-child(1) {
+        width: 30%;
+        float: left;
+    }
+    form {
+        width: 32%;
+        height: 20.5em;
+        float: right;
+        margin-right: 4em;
+        margin-top: -25.5em;
+
+    }
+    main section:nth-child(3) {
+        width: 100%;
+        float: left;
+    }
+    section:nth-child(2) {
+        margin-left: 1em;
+    }
+    .image3 {
+        display: block;
+        margin-top: 1em;
+        width: 100%;
+    }
+    .image2 {
+        display: none;
+    }
+}
+
+/* Like button */
+
+.heartempty {
+    background-image: url(images/heart.png);
+    background-size: 2.3em;
+    width: 3em;
+    height: 3em;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+    background-color: #E6E6E9;
+}
+
+.heartfull {
+    background-image: url(images/heartfilled.png);
+    width: 3em;
+    height: 3em;
+    background-position: center;
+    background-color: #E6E6E9;
+}
+
+/* Download button */
+
+.download {
+    background-image: url(images/download.png);
+    background-size: 2.3em;
+    width: 3em;
+    height: 3em;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+    background-color: #E6E6E9;
+}
+
+.downloaded {
+    background-image: url(images/downloaded.png);
+    width: 3em;
+    height: 3em;
+    background-position: center;
+    background-color: #E6E6E9;
+}
+
+/* Download button */
+
+.favourite {
+    background-image: url(images/heartfilled.png);
+    background-size: 1.5em;
+    margin-top: -0.3em;
+    margin-left: 77.6em;
+    width: 2.4em;
+    height: 2.4em;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+    background-color: #FFFFFF;
+}
+
+.favouriteadded {
+    background-image: url(images/added.png);
+    margin-left: 77.6em;
+    width: 2.4em;
+    height: 2.4em;
+    background-position: center;
+    background-color: #FFFFFF;
+}

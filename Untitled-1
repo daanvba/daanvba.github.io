@@ -1,0 +1,18 @@
+flex container: heeft items, items die daarin zitten positioneren.
+- display:flex; justify-content:space-between;
+
+grid container: 
+
+media que:@media(min0width:50em){
+
+}
+
+main {
+    display: grid;
+    gid-template-columns: 1fr 1fr 1fr;
+    grid-gap:1rem;
+    }
+    
+items in flexcontainer (meeschalen): %
+
+transition

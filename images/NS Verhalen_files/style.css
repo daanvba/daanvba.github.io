@@ -1,0 +1,105 @@
+body {
+    background-color: #E6E6E9;
+    margin-left: 1em;
+    margin-top: -1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-family: Frobisher;
+}
+
+@font-face {
+    font-family: Frobisher;
+    src: url('font/Frobisher.ttf') format("truetype");
+    font-weight: 900;
+}
+
+h1 {
+    color: #000166;
+    font-size: 1.875em;
+    min-width: 20em;
+    max-width: 40em;
+}
+
+h2 {
+    color: #000166;
+    font-size: 1.1875em;
+    min-width: 20em;
+    max-width: 40em;
+}
+
+h3 {
+    color: #000166;
+    font-size: 1.0625em;
+    min-width: 20em;
+    max-width: 40em;
+}
+
+p {
+    color: #127bd0;
+    font-size: 1em;
+    min-width: 20em;
+    max-width: 40em;
+}
+
+header {
+    height: 2.8125em;
+    background-color: #FFFFFF;
+    margin-left: -1em;
+    margin-right: -1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    border-bottom: solid;
+    border-color: #939598;
+    border-width: 0.09375em;
+}
+
+form img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    background-color: #fec836;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    color: #000166;
+}
+
+fieldset {
+    border-style: none;
+    margin-right: -0.5em;
+    margin-left: -0.5em;
+}
+
+section {
+    background-color: #FFFFFF;
+    margin-top: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+}
+
+button {
+    color: #FFFFFF;
+    font-size: 1em;
+    width: 100%;
+    height: 2.5em;
+    background-color: #127bd0;
+    font-family: Frobisher;
+}
+
+input[type=search] {
+    border-style: none;
+    width: 100%;
+    line-height: 3.5em;
+}
+
+header img {
+    margin-top: 20px;
+    width: 55px;
+    height: 20px;
+}
